@@ -37,4 +37,8 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
+  delete '/recipes/:id' do
+    
+  end
+
 end
